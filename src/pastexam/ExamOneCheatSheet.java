@@ -1,11 +1,10 @@
 package pastexam;
-
 import java.util.Scanner; // scanner code
 public class ExamOneCheatSheet {
     public static void main(String[] args) { // main method
         int score; // delaration of "score" variable
         score = 5; // variable initialization
-        int hi = 2; // declaration + variable initialization
+        int hi = 2; // declaration + variable initialization in 1 step
         System.out.print("Hello!");
         System.out.println("Print on same line as previous one");
         System.out.println("Print on next line");
