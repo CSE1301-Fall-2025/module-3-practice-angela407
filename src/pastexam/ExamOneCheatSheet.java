@@ -16,5 +16,21 @@ public class ExamOneCheatSheet {
          * in.nextBoolean() scans your next input as a boolean
          */
         System.out.println("You feel " + mood + "!"); //concatenation
+        int test = (int)Math.random()*10; // random number between 0-9, not including 10
+        if (test < 2) {
+            System.out.println(test + " is less than 2");
+        } else if (test == 2) { //make sure to use ==, not =
+            System.out.println(test + " is equal to 2");
+        } else { // don't need a boolean condition here!!!
+            System.out.println(test + " is great than 2");
+        }
+        int loop = (int)(Math.random()*10)+1; // random number between 1-10 (initialize variable)
+        while (loop > 0) { // test loop variable
+            System.out.println("Hi!");
+            loop--; // change loop variable
+        }
+        for (int i = 4; i < 10; i++) { // initialize variable; test varaible; change variable
+            System.out.println ("Good luck!");
+        }
     }
 }
