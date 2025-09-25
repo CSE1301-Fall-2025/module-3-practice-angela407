@@ -11,6 +11,9 @@ public class ExamOneArrayExamples { // array examples
         for (int i = 0; i < names.length; i++) { // traversing array with for loop
             System.out.println(names[i]); // prints out all element in "names" array
         }
+        for (String variable: names){
+            System.out.println(variable);
+        }
         int[][] ticketInfo = new int[2][3]; // create new 2D array
         String[][] randLetters = {{"M", "O"}, {"A", "L"}, {"E", "K"}}; /* create 
         2D array with initializer list*/
